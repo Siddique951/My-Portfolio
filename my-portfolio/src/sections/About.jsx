@@ -89,14 +89,17 @@ export default function About() {
                     <h3 className="text-2xl sm:text-3xl font-bold text-white mb-3">
                         About Me
                     </h3>
-                    <p className="text-gray-300 leading-relaxed text-base sm:text-lg">
+                    <div className="text-gray-300 leading-relaxed text-base sm:text-lg space-y-4">
                         <p>
-                            "I'm a Full Stack Developer with a strong interest in creating responsive UIs and scalable backend systems using the MERN stack. I enjoy working on real-world projects that help me improve my problem-solving skills.
+                            I'm a Full Stack Developer with a strong interest in creating responsive UIs and scalable backend systems using the MERN stack.
+                            I enjoy working on real-world projects that help me improve my problem-solving skills.
                         </p>
-                        <p className="mt-4 text-gray-400 text-base sm:text-lg">
+
+                        <p className="text-gray-400">
                             I love writing clean code, exploring new tools, and collaborating on projects that push me to grow as a developer.
                         </p>
-                    </p>
+                    </div>
+
 
                 </motion.div>
 
