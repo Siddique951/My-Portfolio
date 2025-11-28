@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
-import img1 from "../assets/img1.JPG"
-import img2 from "../assets/img2.JPG"
-import img3 from "../assets/img3.JPG"
+import img1 from "../assets/img-1.png"
+import img2 from "../assets/img-2.JPG"
+import img3 from "../assets/img-3.png"
 import photo1 from "../assets/img1.JPG"
 import photo2 from "../assets/photo2.PNG"
 import photo3 from "../assets/photo3.png"
@@ -32,21 +32,21 @@ export default function Projects() {
 
     const projects = useMemo(() => [
         {
-            title: "nk studio",
-            link: "https://www.nk.studio/",
-            bgColor: "#0d4d3d",
+            title: "AI SaaS App",
+            link: "https://genzy-ai.vercel.app/",
+            bgColor: "#0b2e4d",
             image: isMobile ? photo1 : img1, // use mobile or desktop image
         },
         {
-            title: "Gamily",
-            link: "https://gamilyapp.com/",
-            bgColor: "#3884d3",
+            title: "nk studio",
+            link: "https://www.nk.studio/",
+            bgColor: "#0d4d3d",
             image: isMobile ? photo2 : img2,
         },
         {
-            title: "Hungry Tiger",
-            link: "https://www.eathungrytiger.com/",
-            bgColor: "#dc9317",
+            title: "Crypto",
+            link: "https://crypto-verse-psi-six.vercel.app/",
+            bgColor: "#1e1e1e",
             image: isMobile ? photo3 : img3,
         },
     ],
