@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 // import ParticlesBackground from "./components/ParticlesBackground";
 import About from "./sections/About";
 import Contact from "./sections/Contact";
-import Experience from "./sections/Experience";
+// import Experience from "./sections/Experience";
 import Footer from "./sections/Footer";
 import Home from "./sections/Home";
 import Projects from "./sections/Projects";
@@ -28,7 +28,7 @@ export default function App() {
           <About />
           <Skills />
           <Projects />
-          <Experience />
+          {/* <Experience /> */}
           <Testimonials />
           <Contact />
           <Footer />
